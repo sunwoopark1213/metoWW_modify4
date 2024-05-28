@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Existing Views here -->
+
+    <TextView
+        android:id="@+id/tvCityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="도시 이름"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="온도"
+        android:textSize="20sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="날씨"
+        android:textSize="18sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvMinMaxTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최저 최고 온도"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvWind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="풍속"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="습도"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvPrecipitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="강수량"
+        android:paddingBottom="8dp" />
+
+    <ImageView
+        android:id="@+id/ivWeatherIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        android:paddingTop="16dp" />
+
+    <!-- Add this Button element -->
+    <Button
+        android:id="@+id/btnOpenCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="캘린더" />
+
+    <Button
+        android:id="@+id/btnOpenAirQuality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="공기 질 체크" />
+
+    <Button
+        android:id="@+id/btnPollenForecast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="꽃가루 알러지" />
+</LinearLayout>
